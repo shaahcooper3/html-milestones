@@ -16,7 +16,7 @@
 
     h3 {
       color: rgba(155, 4, 4, 0.788);
-      font-size: medium;
+      font-size: larger;
     }
 
     h4 {
@@ -34,21 +34,32 @@
       color: rgba(155, 4, 4, 0.788);
       padding: 8px;
     }
+
+    #section-contents {
+      float: left;
+      width: 30%;
+      margin-right: 10px;
+    }
   </style>
 </head>
 
 <body>
+
   <h1>Hello, Shaah!!!</h1>
   <h2>
     <marquee>Welcome to your HTML Database:</marquee>
   </h2>
-  <h3>Contents</h3>
-  <ul>
-    <li><a href="#section-validation">Validations</a></li>
-    <li><a href="#section-notes">Notes</a></li>
-    <li><a href="#section-databases">Databases</a></li>
-    <li><a href="#section-tags">Tags</a></li>
-  </ul>
+  <h3 class="newSection">CONTENTS</h3>
+  <div id="section-contents">
+    <ul>
+      <li><a href="#section-validation">Validations</a></li>
+      <li><a href="#section-notes">Notes</a></li>
+      <li><a href="#section-databases">Databases</a></li>
+      <li><a href="#section-tags">Tags</a></li>
+      <li><a href="#section-attributes">Attributes</a></li>
+    </ul>
+  </div>
+
   <h5><img src="https://media.giphy.com/media/l41lXGxBwXYFcJoJ2/giphy.gif"></h5>
   <h2 id="section-databases" class="newSection">LEARNING DATABASES: (Right click to open in New Window)</h2>
   <h2>
@@ -65,6 +76,14 @@
     We can make text <strong>bold</strong> or <em>emphasize</em> it. <br>
     <strong>To add a link:</strong> a href= " (WEBSITE URL GOES HERE) " TITLE GOES BEFORE END TAG <br>
     <strong>To embed an image:</strong> img src="URL" <br>
+    <strong>To make a sidebar:</strong> (OPEN IN VS CODE TO VIEW)
+    <!-- <div id="section-contents">
+      <ul>
+        <li><a href="#section-validation">Validations</a></li>
+        <li><a href="#section-notes">Notes</a></li>
+        <li><a href="#section-databases">Databases</a></li>
+        <li><a href="#section-tags">Tags</a></li>
+      </ul> -->
   </p>
   <h3 id="section-tags" class="newSection">THIS IS YOUR TAGS SECTION:</h3>
   <p>
@@ -79,10 +98,13 @@
     <strong>strong:</strong> Puts element in bold <br>
     <strong>em:</strong> Puts element in emphasis <br>
     <strong>a:</strong> Anchor tag is used to define the beginning and end of a hypertext link.
-
-
+    <strong>div:</strong> Defines a division or a section in an HTML document<br>
+    <strong>ul:</strong> Represents a list of items, where the order of the items is not important <br>
+    <strong>ol:</strong> Designates an ordered list
+    <strong>li:</strong> Represents a list item in ordered and unordered lists. The "li" tag is placed inside either an
+    "ol" or "ul" to represent each individual item <br>
   </p>
-  <h3 class="newSection">THIS IS YOUR ATTRIBUTES SECTION:</h3>
+  <h3 id="section-attributes" class="newSection">THIS IS YOUR ATTRIBUTES SECTION:</h3>
   <p>
     <strong>href:</strong> Hyperlink reference to a linked source. <br>
     <strong>id:</strong> Identifies an element <br>
@@ -90,6 +112,7 @@
     <strong>src:</strong> Specifies a source for embeddable content <br>
   </p>
 </body>
+<a href="#section-contents">Back to CONTENTS</a>
 <h5><img src="https://media.giphy.com/media/B26LDnaiL93msPRlfd/giphy.gif"></h5>
 
 </html>
