@@ -1,0 +1,30 @@
+Notes:
+
+THIS IS A BASE TEMPLATE OF A HTML DOCUMENT!
+<html>
+  <head>
+    <title>A first webpage</title>
+    <style>
+      h1 {
+        color: red;
+      }
+      p {
+        border: 10px dotted green
+        font-size: 32px;
+      }
+  </head>
+  <body>
+    <h1>Hello, world</h1>
+    <p>
+    This is a paragraph of text. We can make text <strong>bold</strong> or <em>emphasize</em> it.
+    </p>
+  </body>
+</html>
+THIS IS A BASE TEMPLATE OF A HTML DOCUMENT!
+
+Tags:
+<head> creates heading
+<body> creates body
+<title> creates new title
+<h1> creates new heading
+<marquee> moves text across row on screen
